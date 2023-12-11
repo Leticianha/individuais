@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style7.css">
+    <script src="https://kit.fontawesome.com/a2288264db.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="shortcut icon" href="img-interface/lenabi 1.png" type="image/x-icon">
+    <link rel="stylesheet" href="produto.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="stylemobile.css">
+    <title>LeNabi - A biblioteca da Meia-Noite</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <section id="individual">
+            <div class="container-individual">
+
+                <div class="tarja-individual"></div>
+
+                <div class="produto-individual">
+
+                    <div class="info-produ-mobile">
+                        <h1>A biblioteca da Meia-Noite</h1>
+                        <h3><span>por</span> Matt Haig <span class="italic">(Autor)</span></h3>
+                    </div>
+
+                    <div class="produto-img">
+                        <img src="img produto/biblioteca meia noite.webp" alt="a biblioteca da meia noite">
+                    </div>
+
+                    <div class="produto-texto">
+
+                        <div class="info-produ">
+                            <h1>A biblioteca da Meia-Noite</h1>
+                            <h3><span>por</span> Matt Haig <span class="italic">(Autor)</span></h3>
+                        </div>
+
+                        <div class="preco-produ">
+                            <div class="preco">
+                                <h1>R$42,00</h1>
+                                <h2>R$47,90</h2>
+                            </div>
+
+                            <div class="frase">
+                                <p class="italic">A celebração do poder que os livros têm de mudar vidas.</p>
+                                <div class="linha-prod"></div>
+                                <p>A Biblioteca da Meia-Noite é um romance incrível que fala dos infinitos rumos
+                                    que a vida pode tomar e da busca incessante pelo rumo certo.</p>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            <div class="image-card">
+                                <img class="icon" src="img produto/livro icone.png" alt="livro icone">
+                                <p class="espec">366 Páginas</p>
+                            </div>
+                            <div class="image-card">
+                                <img class="icon" src="img produto/planeta icone.png" alt="planeta icone">
+                                <p class="espec">Português-BR</p>
+                            </div>
+                            <div class="image-card">
+                                <button class="produtinhos" onclick="addCarrinho('A biblioteca da meia noite', 42.00)">
+                                    <img class="icon-coracao" src="img produto/coracao icone.png" alt="produto icone"
+                                        id="coracao-vazio" onclick="alternarContador()">
+                                    <img class="icon-coracaoP" src="img produto/cora-pintado.png" alt="produto icone"
+                                        id="coracao-pintado" style="display: none;" onclick="alternarContador()">
+                                </button>
+                                <p class="espec-coracao" id="contador-coracao" data-ativo="false"
+                                    data-valor-inicial="194">
+                                    194</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="botao-compre">
+                <a href="https://www.amazon.com.br/Biblioteca-Meia-Noite-Matt-Haig/dp/6558380544/ref=sr_1_1?crid=2ZC9Q1IC5H8Y2&keywords=a+biblioteca+da+meia+noite&qid=1702257274&sprefix=a+bibl%2Caps%2C283&sr=8-1"
+                    target="_blank">Compre Já!</a>
+            </div>
+
+            </div>
+        </section>
+
+        <section id="detalhes">
+            <div class="container-detalhe">
+
+                <div class="detalhe-titulo">
+                    <div class="detalhe-linha-mobile"></div>
+                    <h1>Detalhes do produto</h1>
+                    <div class="detalhe-linha"></div>
+                </div>
+
+                <div class="infos-detalhe">
+                    <h1>Editora: <span>LeNabi ; 2ª edição</span></h1>
+                    <h1>Data de publicação: <span>23 de maio de 2023</span></h1>
+                    <h1>Classificação indicativa: <span><img src="img produto/10anos.png" alt="10 anos"></span></h1>
+                    <h1>Gênero: <span>Ficção</span></h1>
+                    <h1>Tamanho do arquivo (Kindle): <span>4754 KB</span></h1>
+                    <h1>Avaliação do produto: <span>4.4 <img src="img produto/3.5estrela.png" alt="3.4 estrelas"></span>
+                    </h1>
+                </div>
+
+                <div class="linha-detalhe"></div>
+            </div>
+        </section>
+
+        <section id="produtos">
+            <div class="produtos-titulo">
+                <h1>Livros sugeridos para você!</h1>
+                <div class="linha-produto"></div>
+            </div>
+
+            <div class="realFundo">
+
+                <div class="livros">
+                    <h2>Hoje, depois...</h2>
+                    <p>Rachel L.</p>
+                    <a href="index14.html">
+                        <img src="img produto/hoje depois amanha.webp" alt="depois de amanhã">
+                        <div class="buttonPreco">
+                            <h3>R$19,99</h3>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="livros">
+                    <h2>Jogo Fatal</h2>
+                    <p>Holly J.</p>
+                    <a href="index10.html">
+                        <img src="img produto/jogo fatal.webp" alt="jogo fatal">
+                        <div class="buttonPreco">
+                            <h3>R$34,90</h3>
+                        </div>
+                    </a>
+                </div>
+
+
+                <div class="livros">
+                    <h2>O Ceifador</h2>
+                    <p>Neal S.</p>
+                    <a href="index11.html">
+                        <img src="img produto/o ceifador.webp" alt="o ceifrador">
+                        <div class="buttonPreco">
+                            <h3>R$39,34</h3>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="realFundo-mobile">
+                <div class="livros-mobile active" id="livro1">
+                    <h2>Hoje, depois...</h2>
+                    <p>Rachel L.</p>
+                    <a href="index14.html">
+                        <img src="img produto/hoje depois amanha.webp" alt="depois de amanhã">
+                        <div class="buttonPreco">
+                            <h3>R$19,99</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="livros-mobile" id="livro2">
+                    <h2>Jogo Fatal</h2>
+                    <p>Holly J.</p>
+                    <a href="index10.html">
+                        <img src="img produto/jogo fatal.webp" alt="jogo fatal">
+                        <div class="buttonPreco">
+                            <h3>R$34,90</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="livros-mobile" id="livro3">
+                    <h2>O Ceifador</h2>
+                    <p>Neal S.</p>
+                    <a href="index11.html">
+                        <img src="img produto/o ceifador.webp" alt="o ceifrador">
+                        <div class="buttonPreco">
+                            <h3>R$39,34</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="botao">
+                    <button onclick="prevLivro()"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button onclick="nextLivro()"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+
+            <div class="produto-linha"></div>
+        </section>
+
+    </main>
+
+    <script>
+        var currentIndex = 0;
+        var livros = document.querySelectorAll('.livros-mobile');
+
+        function showLivro(index) {
+            livros.forEach(livro => livro.classList.remove('active'));
+            livros[index].classList.add('active');
+        }
+
+        function nextLivro() {
+            currentIndex = (currentIndex + 1) % livros.length;
+            showLivro(currentIndex);
+        }
+
+        function prevLivro() {
+            currentIndex = (currentIndex - 1 + livros.length) % livros.length;
+            showLivro(currentIndex);
+        }
+    </script>
+
+    <script src="main.js"></script>
+    <script src="user.js"></script>
+</body>
+
+</html>
